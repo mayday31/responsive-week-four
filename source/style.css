@@ -1,0 +1,18 @@
+.webpage {
+  background: #9b50a2;
+  text-align: center;
+  color: white;
+  padding: 120px 20px;
+}
+
+.bee {
+  font-family: "Mansalva", sans-serif;
+}
+
+.btn-info {
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  background: #5d0247;
+  color: white;
+}
