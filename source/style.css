@@ -1,5 +1,10 @@
 :root {
   --font: "Barlow Condensed", sans-serif;
+  --button-color: #5d0247;
+}
+
+body {
+  font-family: var(--font);
 }
 
 .webpage {
@@ -7,7 +12,6 @@
   text-align: center;
   color: white;
   padding: 120px 20px;
-  font-family: var(--font);
 }
 
 .bee {
@@ -18,10 +22,21 @@
   border-radius: 4px;
   border: none;
   padding: 10px 20px;
-  background: #5d0247;
+  background: var(--button-color);
   color: white;
 }
 
+.btn-info-outline {
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  border: 1px solid var(--button-color);
+  color: var(--button-color);
+}
+
+.btn-info-outline:hover {
+  border: var(--button-color);
+}
+
 .about-bee {
-  font-family: var(--font);
 }
