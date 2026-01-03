@@ -1,8 +1,13 @@
+:root {
+  --font: "Barlow Condensed", sans-serif;
+}
+
 .webpage {
   background: #9b50a2;
   text-align: center;
   color: white;
   padding: 120px 20px;
+  font-family: var(--font);
 }
 
 .bee {
@@ -15,4 +20,8 @@
   padding: 10px 20px;
   background: #5d0247;
   color: white;
+}
+
+.about-bee {
+  font-family: var(--font);
 }
