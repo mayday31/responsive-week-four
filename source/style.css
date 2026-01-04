@@ -42,12 +42,6 @@ body {
   line-height: 27px;
 }
 
-.pic {
-  max-width: 400px;
-  max-height: 400px;
-  background-color: #f768d4;
-}
-
 .project-info {
   padding: 120px 60px;
 }
