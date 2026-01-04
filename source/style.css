@@ -42,11 +42,19 @@ body {
   line-height: 27px;
 }
 
-.img-fluid {
+.pic {
   max-width: 400px;
   max-height: 400px;
+  background-color: #f768d4;
 }
 
 .project-info {
   padding: 120px 60px;
+}
+
+@media (max-width: 900) {
+  .project-info {
+    padding: 0;
+    text-align: center;
+  }
 }
