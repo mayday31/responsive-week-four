@@ -16,7 +16,7 @@ body {
   background-color: var(--background-color);
 }
 
-.webpage {
+.index {
   background: var(--background-color);
   text-align: center;
   color: white;
@@ -55,13 +55,17 @@ body {
   padding: 120px 60px;
 }
 
+.webpage p {
+  line-height: 27px;
+}
+
 @media (max-width: 900) {
   .project-info {
     padding: 0;
     text-align: center;
   }
 
-  .about {
+  .webpage {
     padding: 0;
     text-align: center;
   }
