@@ -26,14 +26,38 @@
       body {
         background-image: url("picture/cutie.png");
         background-repeat: no-repeat;
+        background-color: #9b50a2;
+        color: #5d0247;
       }
       h3,
       p {
         text-align: right;
       }
+      a {
+        color: white;
+      }
+
+      nav a {
+        color: white;
+      }
+
+      nav a:hover {
+        color: black;
+      }
     </style>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img src="picture/bee-logo.png" class="logo" alt="" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="webpage container text-center p-5">
       <h1 class="bee d-flex justify-content-end">Where to Reach Me</h1>
       <h3>Email</h3>
