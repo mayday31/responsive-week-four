@@ -92,14 +92,39 @@ nav a:hover {
   font-weight: 500;
 }
 
-@media (max-width: 900) {
+footer .work-inquiry {
+  background: var(--background-color);
+  padding: 30px;
+  color: white;
+  border-radius: 4px;
+}
+
+footer .btn-info-outline {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+footer .email-info {
+  text-decoration: none;
+  color: #9b50a2;
+  text-align: center;
+  font-size: 30px;
+}
+
+footer .email-info:hover {
+  color: var(--primary-color);
+  font-size: 35px;
+}
+
+@media (max-width: 900px) {
   .project-info {
     padding: 0;
     text-align: center;
   }
 
-  .webpage {
+  .page-contact {
     padding: 0;
     text-align: center;
+    color: #9b50a2;
   }
 }
